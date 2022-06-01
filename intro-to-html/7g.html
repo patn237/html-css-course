@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter text box</title>
+    <style>
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        object-fit: cover;
+        object-position: center;
+        vertical-align: middle;
+      }
+
+      .profile-text {
+        vertical-align: middle;
+        border: none;
+        font-size: 15px;
+        margin-left: 8px;
+        width: 300px;
+      }
+
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.15s;
+        vertical-align: middle;
+      }
+
+      .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="profile-pic" src="puppy.jpg">
+    <input class="profile-text" type="text" placeholder="What's happening?">
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>
