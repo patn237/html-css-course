@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9g</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .fb-profiles {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        column-gap: 20px;
+        align-items: center;
+      }
+
+      .profile {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+        vertical-align: top;
+      }
+
+      .profile-photo {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 8px;
+      }
+
+      .mutual-friends {
+        font-size: 12px;
+        color: gray;
+        margin-left: 8px;
+      }
+
+      .add-friend {
+        background-color: rgb(0, 132, 255);
+        color: white;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 4px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+
+      .user-photo {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-left: 8px;
+      }
+
+      .mutual-friends-row {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fb-profiles">
+      <div class="profile">
+        <div>
+          <img class="profile-photo" src="puppy.jpg">
+        </div>
+        <div>
+          <p class="profile-name">Oliver</p>
+          <div class="mutual-friends-row">
+            <img class="user-photo" src="Bernese.webp">
+            <p class="mutual-friends">2 mutual friends</p>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="profile">
+        <div>
+          <img class="profile-photo" src="corgy.jpg">
+        </div>
+        <div>
+          <p class="profile-name">Rex</p>
+          <div class="mutual-friends-row">
+            <img class="user-photo" src="Bernese.webp">
+            <p class="mutual-friends">4 mutual friends</p>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="profile">
+        <div>
+          <img class="profile-photo" src="cat.webp">
+        </div>
+        <div>
+          <p class="profile-name">Mimi</p>
+          <div class="mutual-friends-row">
+            <img class="user-photo" src="Bernese.webp">
+            <p class="mutual-friends">3 mutual friends</p>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
