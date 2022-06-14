@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13g</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .container {
+        width: 410px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .profile-pic {
+        margin-right: 10px;
+      }
+
+      .pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .name-row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 6px;
+      }
+
+      .display-name {
+        margin-right: 4px;
+        font-weight: bold;
+      }
+
+      .at-name {
+        color: gray;
+      }
+
+      .description-row {
+        margin-bottom: 10px;
+        line-height: 21px;
+      }
+
+      .link-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(196, 196, 196);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .left-box {
+        background-color: rgb(220, 220, 220);
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+      }
+
+      .right-box {
+        flex: 1;
+      }
+
+      .site {
+        color: gray;
+        margin-bottom: 6px;
+      }
+
+      .title {
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-pic">
+        <img class="pic" src="cat.webp">
+      </div>
+      <div class="tweet">
+        <div class="name-row">
+          <div class="display-name">supersimple.dev</div>
+          <div class="at-name">@SuperSimpleDev</div>
+        </div>
+        <div class="description-row">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="link-row">
+          <div class="left-box"></div>
+          <div class="right-box">
+            <div class="site">
+              youtube.com
+            </div>
+            <div class="title">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

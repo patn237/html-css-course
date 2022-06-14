@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13d</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .container {
+        border: none;
+        border-radius: 4px;
+        padding-right: 14px;
+        padding-left: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 325px;
+        height: 280px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      .inboxes {
+        margin-top: 8px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: gray;
+      }
+
+      .sender {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 22px;
+      }
+
+      .profile-pic {
+        margin-right: 10px;
+      }
+
+      .pic {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3px;
+      }
+
+      .sender-name {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .text {
+        flex: 1;
+      }
+
+      .time {
+        color: gray;
+        font-size: 12px;
+      }
+
+      .subtitle {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+
+      .description {
+        color: gray;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inboxes">ALL INBOXES</div>
+      <div class="sender">
+        <div class="profile-pic">
+          <img class="pic" src="cat.webp">
+        </div>
+        <div class="text">
+          <div class="title">
+            <div class="sender-name">Chewy Promotions</div>
+            <div class="time">4&colon;58 PM</div>
+          </div>
+          <div class="subtitle">
+            Biggest sales of the year!
+          </div>
+          <div class="description">
+            Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+
+      <div class="sender">
+        <div class="profile-pic">
+          <img class="pic" src="puppy.jpg">
+        </div>
+        <div class="text">
+          <div class="title">
+            <div class="sender-name">Best Buy</div>
+            <div class="time">12&colon;32 PM</div>
+          </div>
+          <div class="subtitle">
+            Your Best Buy eReceipt
+          </div>
+          <div class="description">
+            Thank you for shopping at Best Buy, here is...
+          </div>
+        </div>
+      </div>
+
+      <div class="sender">
+        <div class="profile-pic">
+          <img class="pic" src="Bernese.webp">
+        </div>
+        <div class="text">
+          <div class="title">
+            <div class="sender-name">Netflix</div>
+            <div class="time">9&colon;00 AM</div>
+          </div>
+          <div class="subtitle">
+            Here's what's coming soon to Netflix
+          </div>
+          <div class="description">
+            Brand new movies and shows, old favorites
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
