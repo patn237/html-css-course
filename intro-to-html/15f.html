@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15f</title>
+    <style>
+      body {
+        background-color: rgb(221, 221, 221);
+      }
+
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .price-marking {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-family: Arial;
+        background-color: black;
+        color: white;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+      }
+
+      .cart-overlay {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+
+      .cart-button {
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="shirt.jpg">
+      <div class="price-marking">20% OFF</div>
+      <div class="cart-overlay">
+        <button class="cart-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

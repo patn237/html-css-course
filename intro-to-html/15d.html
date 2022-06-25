@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15d</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .gray-box {
+        position: fixed;
+        height: 180px;
+        width: 320px;
+        background-color: gray;
+        bottom: 15px;
+        right: 15px;
+      }
+
+      .close-button{
+        background-color: black;
+        color: white;
+        position: absolute;
+        border-radius: 25px;
+        left: -15px;
+        top: -15px;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .timestamp {
+        z-index: 100;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: Arial;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gray-box">
+      <div class="close-button">X</div>
+      <div class="timestamp">0:29</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14f</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .sidebar1 {
+        background-color: rgb(43, 43, 43);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+      }
+
+      .img {
+        margin-bottom: 5px;
+      }
+
+      .pic {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .sidebar2 {
+        background-color: rgb(66, 66, 66);
+        position: fixed;
+        left: 70px;
+        top: 0;
+        bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+      }
+
+      .info-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 150px;
+      }
+
+      .info {
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .add-more {
+        color: rgb(180, 180, 180);
+        font-size: 20px;
+      }
+
+      .hashtag {
+        color: rgb(151, 151, 151);
+        margin-bottom: 18px;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar1">
+      <div class="img">
+        <img class="pic" src="puppy.jpg">
+      </div>
+      <div class="img">
+        <img class="pic" src="cat.webp">
+      </div>
+      <div class="img">
+        <img class="pic" src="corgy.jpg">
+      </div>
+    </div>
+    <div class="sidebar2">
+      <div class="info-bar">
+        <div class="info">INFO</div>
+        <div class="add-more">+</div>
+      </div>
+      <div class="hashtag"># new-videos</div>
+      <div class="hashtag"># updates</div>
+      <div class="hashtag"># faq</div>
+    </div>
+  </body>
+</html>
